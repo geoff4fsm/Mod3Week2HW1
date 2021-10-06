@@ -23,11 +23,11 @@ public class CreateComputer {
         compCost = input.nextDouble();
         c1.setCompCost(compCost);
 
-        System.out.println("+++++++++++++++++++++++++++");
-        System.out.println("Computer Name: " + c1.getCompName());
-        System.out.println("Computer Year: " + c1.getCompYear());
-        System.out.println("Computer Cost: " + c1.getCompCost());
-        System.out.println("+++++++++++++++++++++++++++");
+        System.out.println("+++++++++++++++++++++++++++++");
+        System.out.println("-  Computer Name: " + c1.getCompName());
+        System.out.println("-  Computer Year: " + c1.getCompYear());
+        System.out.println("-  Computer Cost: " + c1.getCompCost());
+        System.out.println("+++++++++++++++++++++++++++++");
 
     }
 }
