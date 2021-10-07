@@ -6,6 +6,11 @@ public class Computer {
     private String compName;
     private int compYear;
     private double compCost;
+
+    // empty constructor
+    public Computer () {
+    }
+
     // Computer parameterized constructor
     public Computer( String compName, int compYear, double compCost) {
         this.compName = compName;
