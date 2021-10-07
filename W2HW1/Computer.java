@@ -5,7 +5,7 @@ public class Computer {
     private int compYear;
     private double compCost;
 
-    public Computer( String comp, int compYear, double compCost) {
+    public Computer( String compName, int compYear, double compCost) {
         this.compName = compName;
         this.compYear = compYear;
         this.compCost = compCost;
